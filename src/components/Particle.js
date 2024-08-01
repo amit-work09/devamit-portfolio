@@ -5,6 +5,7 @@ function Particle() {
   return (
     <Particles
       id="tsparticles"
+      className="particles-port"
       params={{
         particles: {
           number: {
@@ -16,7 +17,7 @@ function Particle() {
           },
           line_linked: {
             enable: false,
-            opacity: 0.03,
+            opacity: 0.5,
           },
           move: {
             direction: "right",
@@ -34,13 +35,24 @@ function Particle() {
           },
         },
         interactivity: {
+          detect_on: "canvas", // Detect events on the canvas
           events: {
+            onhover: {
+              enable: true, // Enable interactivity on hover
+              mode: "grab", // Grab mode to draw lines from mouse to particles
+            },
             onclick: {
               enable: true,
               mode: "push",
             },
           },
           modes: {
+            grab: {
+              distance: 200, // Maximum distance for line linking
+              line_linked: {
+                opacity: 0.7, // Line opacity when linked with cursor
+              },
+            },
             push: {
               particles_nb: 1,
             },
