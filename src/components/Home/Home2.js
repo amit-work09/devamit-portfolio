@@ -22,16 +22,16 @@ function Home2() {
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in classics like&nbsp;
               <i>
                 <b className="purple">
-                  AngularJs, ReactJs, Javascript, NodeJs, ExpressJs, HTML5,
-                  CSS3, SASS.
+                  Angular, ReactJs, Javascript, Typescript, NodeJs, ExpressJs,
+                  HTML5, CSS3, SASS, Bootstrap, Mongo DB.
                 </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are building new&nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to <b className="purple">React Native.</b>
@@ -87,7 +87,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/amit-sharma-674000114/"
+                  href="https://www.linkedin.com/in/amit-js-developer/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
